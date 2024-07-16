@@ -95,6 +95,7 @@
 - حزمة تطوير Java (JDK) 8 أو أعلى
 
 ## Class uml
+```mermaid
 classDiagram
     class Book {
         -String title
@@ -161,6 +162,7 @@ classDiagram
     Library "1" --> "*" Member : manages
     Member "1" --> "*" Book : borrows
     LibrarySystem "1" --> "1" Library : uses
+```
 
 ## الرخصة
 
